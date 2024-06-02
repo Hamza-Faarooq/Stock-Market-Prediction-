@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 
 # Function to fetch stock price data from Alpha Vantage
 def fetch_stock_data(symbol, interval='daily', output_size='compact'):
-    api_key = 'VBA2PDF6NUNEATFV'  # Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key
+    api_key = 'VBA2PDF6NUNEATFV'  
+#Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key
     url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&outputsize=compact&apikey=VBA2PDF6NUNEATFV'
     response = requests.get(url)
     data = response.json()
