@@ -28,6 +28,4 @@ To run this script, you need Python installed on your system along with the nece
 
 - This script uses the Alpha Vantage API to fetch stock price data. Visit [Alpha Vantage](https://www.alphavantage.co/) for more information.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
