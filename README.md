@@ -5,7 +5,18 @@ This Python script fetches historical stock price data for Apple (AAPL) from the
 
 ## Prerequisites 
 
-### Python & its libraries must be installed into thr system. 
+### Python & its libraries must be installed into the system.
+ ```
+import requests
+import pandas as pd
+import numpy as np
+from scipy import stats
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+import matplotlib.pyplot as plt 
+```
 
 1. Replace the placeholder API key in the script with your actual Alpha Vantage API key. You can obtain an API key by signing up on the Alpha Vantage website.
 
